@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Calculadora</h1>
+  <form action="calculadora.php" method="post">
+    <input type="number" step="any" name="num1" placeholder="Número 1" required>
+    <input type="number" step="any" name="num2" placeholder="Número 2" required>
+    <div class="botones">
+      <button type="submit" name="op" value="suma">+</button>
+      <button type="submit" name="op" value="resta">−</button>
+      <button type="submit" name="op" value="multiplicacion">×</button>
+      <button type="submit" name="op" value="division">÷</button>
+    </div>
+  </form>
+</body>
+</html>

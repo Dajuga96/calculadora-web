@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; max-width: 320px; margin: 40px auto; text-align: center; }
+input { width: 100%; padding: 8px; margin: 6px 0; box-sizing: border-box; }
+.botones button { width: 22%; padding: 10px; font-size: 18px; cursor: pointer; }
+.resultado { margin-top: 20px; font-size: 22px; font-weight: bold; }
